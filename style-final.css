@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.Section1{
+	width: 100vw;
+    height: 100vh;
+    background-image: url("tendencias-80-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	display: flex;
+	flex: 0 0 auto;
+}
+.logo-1{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.img{
+	width: 100%;
+}
+.logo-2{
+	position: inherit;
+  	top: 50%;
+  	left: 48%;
+  	transform: translate(50%, 50%);
+	display: inline-block
+}
+.Section2{
+	width: 70vw;
+    height: 100vh;
+	padding-top: 80px;
+	background-color: #F2C4E1;
+	position: relative;
+}
+.content{
+	display: block;
+}
+p.solid {
+	margin-left: 200px;
+	height: 200px;
+  	width: 600px;
+	margin-top: 100px;
+	border: solid 1px #000;
+	display: flex;
+	flex: 0 0 auto;
+}
+p{
+	padding-top: 60px;
+	text-align: center;
+   	font-family: "Lucida Console", "Courier New", monospace; 
+	display: block;
+	text-indent: 50px;
+  	letter-spacing: 5px;
+}
+.square-1{
+	background-color: #FFA5E4;
+  	border: 10px solid #FFF29D;
+  	padding: 30px;
+	margin-left: 130px;
+	margin-top: -30px;
+	width: 0px;
+	position: absolute;
+	box-shadow: 20px 15px #D699CE;	
+}
+.square-2{
+	background-color: #FFA5E4;
+  	border: 10px solid #FFF29D;
+  	padding: 30px;
+	width: 150px;
+	margin-left: 700px;
+	margin-top: -20px;
+	position: absolute;
+	box-shadow: 20px 15px #D699CE;
+}
+.square-0{
+	background-color: #FFA5E4;
+  	border: 7.5px solid #FFF29D;
+  	padding: 15px;
+	margin-left: 220px;
+	margin-top: -90px;
+	width: 0px;
+	position: absolute;
+	box-shadow: 10px 10px #D699CE;	
+}
+.Section3{
+	background-color: #F2C4E1;
+	width: 60vw;
+    height: 100vh;
+	display: flex;
+	flex: 0 0 auto;
+}
+.bg-vid img{
+	width: 200%;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	padding-top: 50px;
+	padding-left: 60px;
+	position: relative;
+}
+.vid{
+	background-image: url(https://cdn.vogue.es/micros/tendencias-moda-anos-80/resources/images/tendencias-80-video-bg-01.gif);
+    position: relative;
+	width: 500px;
+	height: 500px;
+	max-width: 100%;
+	top: 110px;
+	left: -170px;
+	background-position: center;
+}
+video{
+	width: inherit;
+}
+.Section4{
+	background-color: #F2C4E1;
+	width: 25vw;
+    height: 100vh;
+	display: flex;
+	flex: 0 0 auto;
+}
+.model-1 img{
+	height: 100vh;
+	float: left;
+	padding-left: 202px;;
+}
+.Section5{
+	width: 50vw;;
+    height: 100vh;
+	display: flex;
+	flex: 0 0 auto;
+}
+.model-2 img{
+	height: 100vh;
+	padding-left: 40%;
+	padding-top: 18%;
+}
+.Section6{
+	width: 80vw;;
+    height: 100vh;
+	position: relative;
+	display: flex;
+	flex: 0 0 auto;
+}
+.line {
+	background-image: url(https://cdn.vogue.es/micros/tendencias-moda-anos-80/resources/images/tendencias-80-v-lines-bg.png);
+	min-width: 90vw;
+	background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: 12% top;
+	position: absolute;
+	float: left;
+	display: flex;
+	flex: 0 0 auto;
+}
+
+
